@@ -12,7 +12,7 @@ public class PostgresLocalDataSourceConfig extends AbstractLocalDataSourceConfig
 
     @Bean
     public DataSource dataSource() {
-        return createDataSource("jdbc:postgresql://armydb-pg.postgres.database.azure.com:5432/sandos_migration",
+        return createDataSource("jdbc:postgresql://armydb-pg.postgres.database.azure.com:5432/musicalbum",
                 "org.postgresql.Driver", "serveradmin@armydb-pg", "menlotech@123");
     }
 
