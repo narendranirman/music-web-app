@@ -61,7 +61,7 @@ public class AlbumControllerTest extends AbstractMockServerTest{
 		String response = mvcResult.getResponse().getContentAsString();
 		List<Album> albumList = mapper.readValue(response, mapper.getTypeFactory().constructCollectionType(List.class, Album.class));
 		Assert.assertTrue(albumList.size() > 0);
-		Assert.assertTrue(mvcResult.getResponse().getStatus() == 400);
+		Assert.assertTrue(mvcResult.getResponse().getStatus() == 200);
 		
 	}
 	
