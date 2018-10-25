@@ -34,6 +34,7 @@ public class AlbumController {
     @RequestMapping(method = RequestMethod.PUT)
     public Album add(@RequestBody @Valid Album album) {
         logger.info("Adding album " + album.getId());
+        logger.info("test");
         return albumService.addAlbum(album);
     }
 
