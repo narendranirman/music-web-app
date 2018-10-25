@@ -1,0 +1,5 @@
+2018-10-25 10:52:20,439 INFO [Thread-1] o.mockserver.mockserver.MockServer [MockServer.java:56] MockServer starting up on port: 1080
+2018-10-25 10:55:55,682 INFO [Thread-1] o.mockserver.mockserver.MockServer [MockServer.java:56] MockServer starting up on port: 1080
+2018-10-25 10:56:06,374 WARN [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [JpaBaseConfiguration.java:235] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-10-25 11:14:45,509 INFO [Thread-1] o.mockserver.mockserver.MockServer [MockServer.java:56] MockServer starting up on port: 1080
+2018-10-25 11:18:24,672 INFO [Thread-1] o.mockserver.mockserver.MockServer [MockServer.java:56] MockServer starting up on port: 1080
