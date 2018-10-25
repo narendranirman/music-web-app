@@ -48,6 +48,7 @@ public class AlbumControllerTest extends AbstractMockServerTest{
 
 	@Test
 	public void getAlbumsTest() throws Exception {
+		System.out.println("Testing auto trigger");
 		Album album = new Album();
 		album.setArtist("Test artist");
 		album.setTitle("Test title");
