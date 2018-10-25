@@ -43,7 +43,6 @@ public class AlbumController {
         logger.info("Updating album " + album.getId());
         return albumService.updateAlbum(album);
     }
-    menlo@009menlo@009
 
 /*    @RequestMapping(value = "/{id}", method = RequestMethod.GET)
     public Album getById(@PathVariable String id) {
